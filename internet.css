@@ -1,0 +1,280 @@
+#wrapper{
+    font-family: Arial, Helvetica, sans-serif;
+    height:830px;
+    width:950px;
+    /*background-color:purple;*/
+}
+
+#header{
+    height:90px;
+}
+
+#globe{
+    display:inline-block;
+    height:100px;
+}
+
+#pageTitle{
+    vertical-align: top;
+    display: inline-block;
+    font-size: 50px;
+    margin-top: 25px;
+}
+
+.blue{
+    color:#26669C;
+}
+
+#topBar{
+    margin-top: -5px;
+    background: -webkit-linear-gradient(#3670A1, #5082AA, #3670A1); /* For Safari 5.1 to 6.0 */
+  	background: -o-linear-gradient(#3670A1, #5082AA, #3670A1); /* For Opera 11.1 to 12.0 */
+  	background: -moz-linear-gradient(#3670A1, #5082AA, #3670A1); /* For Firefox 3.6 to 15 */
+  	background: linear-gradient(#3670A1, #5082AA, #3670A1);
+    height: 55px;
+    font-size: 32px;
+    color:white;
+    padding-top:15px;
+    padding-left: 20px;
+    
+}
+
+#left{
+    height: 550px;
+    width: 200px;
+    display:inline-block;
+}
+
+#whatsInternet{
+    background: -webkit-linear-gradient(lightgrey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgrey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgrey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgrey, white);
+    height:100px;
+    padding-top: 25px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+#question{
+    font-size: 17px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+#red{
+    color:#D72626;
+}
+
+#internet{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+#links{
+    height: 110px;
+}
+.boxLink{
+    margin: auto;
+    margin-bottom: 5px;
+    display:block;
+    background: -webkit-linear-gradient(#6297C0, #306EA2); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#6297C0, #306EA2); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#6297C0, #306EA2); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#6297C0, #306EA2);
+    height: 30px;
+    width: 160px;
+    padding-top: 10px;
+    padding-left: 30px;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    box-shadow: 3px 3px 3px #8E8E8E;
+}
+
+#orange{
+    width: 173px;
+    padding-left: 17px;
+    background: -webkit-linear-gradient(#EAA957, #EC831C); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#EAA957, #EC831C); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#EAA957, #EC831C); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#EAA957, #EC831C);
+}
+
+.separator{
+    height:1px;
+    background-color: #8E8E8E;
+    margin-bottom: 20px;
+}
+
+#adText{
+    text-align: center;
+    font-size: 23px;
+    color:white;
+}
+
+#ninja{
+    display: block;
+    width: 100px;
+    margin:auto;
+    margin-top: -10px;
+}
+
+.arrow{
+    font-size: 13px;
+}
+
+#clear1{
+    opacity: .2;
+}
+#clear2{
+    opacity: .5;
+}
+
+#adLink{
+    padding-top:7px;
+    width: 140px;
+    height: 26px;
+    background: -webkit-linear-gradient(#71CFDE, #14C2DD); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(#71CFDE, #14C2DD); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(#71CFDE, #14C2DD); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(#71CFDE, #14C2DD);
+    box-shadow: 2px 2px 2px black;
+}
+
+#ad{
+    background-image: url("images/ad_background.png");
+    padding-top: 15px;
+    height: 280px;
+}
+
+#right{
+    vertical-align: top;
+    display:inline-block;
+    width: 749.5px;
+    /*background-color: red;*/
+    margin-left:-4px;
+    margin-top: 0px;
+    height: 675px;
+}
+
+#contact{
+    height: 125px;
+    background: -webkit-linear-gradient(lightgrey, white); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(lightgrey, white); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(lightgrey, white); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(lightgrey, white);
+    padding-right: 10px;
+}
+
+#home{
+    vertical-align: top;
+    display: inline-block;
+    margin-top:10px;
+    margin-left: 45px;
+    height: 25px;
+}
+
+#dns{
+    display: inline-block;
+    text-decoration: none;
+    vertical-align: top;
+    margin-top: 17px;
+    color:#26669C;
+}
+
+#contactInfo{
+    text-align: center;
+    display: inline-block;
+    margin-left: 0px;
+    height: 80px;
+    font-size: 12px;
+}
+
+#number{
+    font-weight: bold;
+    font-size: 29px;
+    color:#00C0DD;
+}
+
+#longer{
+    margin-left: 45px;
+    margin-top: -50px;
+    margin-right: 15px;
+    height: 1px;
+}
+
+#clientsAndServers{
+    margin-left: 45px;
+    padding-right: 10px;
+}
+
+.parTitle{
+    color: #26669C;
+    font-size: 19px;
+    font-weight: bold;
+    margin-bottom:5px;
+}
+
+ul{
+    margin-top: 0px;
+}
+
+li{
+    margin-bottom: 5px;
+}
+
+.parText{
+    font-size: 14.5px;
+    margin-bottom: 5px;
+}
+
+#whatHappens{
+    margin-top: 10px;
+    margin-left: 45px;
+    padding-right:10px;
+}
+#clientserver{
+    display: block;
+    width: 300px;
+    margin: auto;
+}
+
+ol{
+    margin-top: 5px;
+}
+
+#big3{
+    padding: 10px;
+    border: 4px solid #0087DD;
+    border-bottom: none;
+    height: 110px;
+    width: 650px;
+    margin-left: 50px;
+    margin-top: 20px;
+}
+
+#html{
+    display: inline-block;
+    height: 110px;
+}
+#big3Text{
+    vertical-align: top;
+    display: inline-block;
+    height: 100px;
+    width: 500px;
+    margin-top: 5px;
+    margin-left: 15px;
+}
+
+.highlight{
+    color:#2DA9BB;
+    text-decoration: none;
+}
+
+#phone{
+    margin-left:380px;
+    display: inline-block;
+    height:47px;
+    margin-right: 10px;
+}

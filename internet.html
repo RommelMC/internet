@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Internet</title>
+    <link rel="stylesheet" type="text/css" href="internet.css">
+</head>
+<body>
+    <div id="wrapper">
+        <div id="header">
+            <img id="globe" src="images/globe.png" alt="globe">
+            <div id="pageTitle">The Inter<span class="blue">net</span></div>
+        </div>
+        <div id="topBar">The World Wide Web</div>
+        <div id="left">
+            <div id="whatsInternet">
+                <div id="question">So, what's an <span id="red">Internet?</span></div>
+                <div id="internet">An <span class="blue">Inter</span>connected <span class="blue">Net</span>work of computers all around the world!</div>
+            </div>
+            <div id="links">
+                <a class="boxLink" href="google.com">WATCH A VIDEO</a>
+                <a class="boxLink" id="orange" href="google.com">MORE RESOURCES</a>
+            </div>
+            <div class="separator"></div>
+            <div id="ad">
+                <div id="adText">Reinvent your career in just 14 weeks</div>
+                <img id="ninja" src="images/ninja.png" alt="ninja">
+                <div class=boxLink id="adLink">Learn More <span class="arrow"><span id="clear1">></span><span id="clear2">></span>></span></div>
+            </div>
+        </div>
+        <div id="right">
+            <div id="contact">
+                <img id="home" src="images/home.png" alt="home">
+                <a id="dns" href="google.com">DNS</a>
+                <img id="phone" src="images/phone.png" alt="phone">
+                <div id="contactInfo">
+                    <div>Mon - Fri 9 a.m. - 5 p.m. (EST)</div>
+                    <div id="number">855.967.3787</div>
+                    <div style="font-size: 11.5px" >International +1.617.963.0555</div>
+                </div>
+            </div>
+            <div class="separator" id="longer"></div>
+            <div id="clientsAndServers">
+                <div class="parTitle">Clients and Servers</div>
+                <div class="parText">Computers connected to the <a class="highlight" href="google.com">Web</a> are called <span style="font-weight: bold;">clients</span> and <span style="font-weight: bold;">servers</span>.</div>
+                <ul class="parText">
+                    <li>
+                        <a class="highlight" href="google.com">Clients</a> are the typical Web user's Internet-connected devices (for example, your computer connected to your Wi-Fi, or 
+                        your phone connected to your mobile network) and <a class="highlight" href="google.com">Web-accessing</a> software available on those devices (usually a web browser
+                        like Firefox or Chrome).
+                    </li>
+                    <li>
+                        <a class="highlight" href="google.com">Servers</a> are computers that store <a class="highlight" href="google.com">webpages</a>, <a class="highlight" href="google.com">sites</a>, 
+                        or <a class="highlight" href="google.com">apps</a>. When a client device wants to access a webpage, a copy of the 
+                        webpage is downloaded from the server onto the client machine to be displayed in the user's web browser.
+                    </li>
+                </ul>
+            </div>
+            <img id="clientserver" src="images/client_server.jpg" alt="client_server">
+            <div id="whatHappens">
+                <div class="parTitle">So What Actually Happens?</div>
+                <!--<div class="parText"></div>-->
+                <ol class="parText">
+                    <li>
+                        The browser goes to the <a class="highlight" href="google.com">DNS server</a> and finds the ral address of the <a class="highlight" href="google.com">server</a> that the website lives on.
+                    </li>
+                    <li>
+                        The browser sends an <a class="highlight" href="google.com">HTTP request</a> message to the server askign it to send a copy of the website to the client.
+                    </li>
+                    <li>
+                        If the server approves the client's request, the server send the client a <a class="highlight" href="google.com">"200 OK" message</a>, which means
+                        "Permission granted! Here you go!", and then starts sending the website's files to thebrowser as a series of small chunks.
+                    </li>
+                    <li>
+                        The browser assembles the small chunks into a complete website and displays it to you!
+                    </li>
+                </ol>
+            </div>
+            <div id="big3">
+                <img id="html" src="images/html.png" alt="html">
+                <div id="big3Text">
+                    <div class="parTitle">The Big 3 - HTML, CSS, JavaScript</div>
+                    <div class="parText">While the server can process information in many different languages, the files that they serve
+                        to the client are <span style="font-style: italic;">always</span> going to be some combination of HTML, CSS, and
+                        JavaScript!
+                    </div>
+                    <div class="parText">
+                        Learn more about the Big 3 <a class="highlight" href="google.com">here</a>!
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
