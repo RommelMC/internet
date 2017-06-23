@@ -36,6 +36,7 @@
     color:white;
     padding-top:15px;
     padding-left: 20px;
+    margin-bottom: 0px;
     
 }
 
@@ -46,10 +47,6 @@
 }
 
 #whatsInternet{
-    background: -webkit-linear-gradient(lightgrey, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(lightgrey, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(lightgrey, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(lightgrey, white);
     height:100px;
     padding-top: 25px;
     padding-left: 5px;
@@ -59,7 +56,8 @@
 #question{
     font-size: 17px;
     font-weight: bold;
-    margin-bottom: 10px;
+    margin-bottom: 0px;
+    margin-top: 0px;
 }
 
 #red{
@@ -73,6 +71,7 @@
 
 #links{
     height: 110px;
+    border-bottom: 1px solid #8E8E8E;
 }
 .boxLink{
     margin: auto;
@@ -101,12 +100,6 @@
     background: linear-gradient(#EAA957, #EC831C);
 }
 
-.separator{
-    height:1px;
-    background-color: #8E8E8E;
-    margin-bottom: 20px;
-}
-
 #adText{
     text-align: center;
     font-size: 23px;
@@ -118,10 +111,16 @@
     width: 100px;
     margin:auto;
     margin-top: -10px;
+
 }
 
 .arrow{
     font-size: 13px;
+}
+
+.linkList{
+    list-style-type: none;
+    margin-left:-43px;
 }
 
 #clear1{
@@ -140,30 +139,40 @@
     background: -moz-linear-gradient(#71CFDE, #14C2DD); /* For Firefox 3.6 to 15 */
     background: linear-gradient(#71CFDE, #14C2DD);
     box-shadow: 2px 2px 2px black;
+    margin-top: 10px;
 }
 
 #ad{
     background-image: url("images/ad_background.png");
     padding-top: 15px;
     height: 280px;
+    /*border-top: 1px solid #8E8E8E;*/
+    /*padding-top:40px;*/
+    /*margin-top: -20px;*/
+    box-shadow: 3px 3px 3px #8E8E8E;
+    margin-top: 30px;
+}
+
+/*I tried to make a div so there was only one background setting*/
+#content{
+    background: -webkit-linear-gradient(lightgrey, white); 
+    background: -o-linear-gradient(lightgrey, white); 
+    background: -moz-linear-gradient(lightgrey, white); 
+    background: linear-gradient(lightgrey, white);
+    height: 100px;
 }
 
 #right{
     vertical-align: top;
     display:inline-block;
-    width: 749.5px;
+    width: 745.5px;
     /*background-color: red;*/
-    margin-left:-4px;
     margin-top: 0px;
     height: 675px;
 }
 
 #contact{
-    height: 125px;
-    background: -webkit-linear-gradient(lightgrey, white); /* For Safari 5.1 to 6.0 */
-    background: -o-linear-gradient(lightgrey, white); /* For Opera 11.1 to 12.0 */
-    background: -moz-linear-gradient(lightgrey, white); /* For Firefox 3.6 to 15 */
-    background: linear-gradient(lightgrey, white);
+    height: 70px;
     padding-right: 10px;
 }
 
@@ -186,9 +195,12 @@
 #contactInfo{
     text-align: center;
     display: inline-block;
-    margin-left: 0px;
     height: 80px;
     font-size: 12px;
+}
+
+#contactInfo>p{
+    margin:0px;
 }
 
 #number{
@@ -197,16 +209,12 @@
     color:#00C0DD;
 }
 
-#longer{
-    margin-left: 45px;
-    margin-top: -50px;
-    margin-right: 15px;
-    height: 1px;
-}
-
 #clientsAndServers{
+    border-top: 1px solid #8E8E8E;
     margin-left: 45px;
     padding-right: 10px;
+    width: 680.5px;
+    padding-top: 10px;
 }
 
 .parTitle{
@@ -214,6 +222,7 @@
     font-size: 19px;
     font-weight: bold;
     margin-bottom:5px;
+    margin-top: 0px;
 }
 
 ul{
@@ -227,6 +236,7 @@ li{
 .parText{
     font-size: 14.5px;
     margin-bottom: 5px;
+    margin-top: 0px;
 }
 
 #whatHappens{
